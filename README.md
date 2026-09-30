@@ -8,8 +8,8 @@ VS Code에서 이 폴더를 열고 `index.html` 우클릭 → **Open with Live S
 
 - 로컬 주소: `http://127.0.0.1:5500`
 - GitHub API 계정: `ehdgus6697-debug`
-- 저장소 URL: [ehdgus6697-debug/mission-b1-1-portfolio](https://github.com/ehdgus6697-debug/mission-b1-1-portfolio) · 비공개
-- GitHub Pages URL: 아직 미배포
+- 저장소 URL: [ehdgus6697-debug/mission-b1-1-portfolio](https://github.com/ehdgus6697-debug/mission-b1-1-portfolio) · 공개
+- GitHub Pages URL: [자기소개 웹페이지](https://ehdgus6697-debug.github.io/mission-b1-1-portfolio/)
 
 ## 공부할 파일과 순서
 
@@ -57,7 +57,7 @@ API는 `/users/ehdgus6697-debug/repos?sort=updated&per_page=100`에서 최근 �
 
 ## 배포와 제출
 
-공개 승인 후 저장소를 공개로 전환하고, GitHub Settings → Pages에서 **main / (root)** 를 선택한다. 실제 저장소·배포 URL을 위에 기록하고 배포 화면에서 기능을 확인한다. 제출물은 저장소 URL, 배포 URL, 아래 스크린샷 3종이다. 인증 없는 API 요청은 과제 안내 기준 시간당 60회 제한이 있어 반복 새로고침을 피한다.
+GitHub Settings → Pages에서 **main / (root)** 로 배포한다. main 브랜치에 변경 사항을 올리면 사이트도 다시 배포된다. 다른 컴퓨터에서도 위 GitHub Pages URL로 접속할 수 있으며, 로컬 서버를 켜 둘 필요가 없다. 제출물은 저장소 URL, 배포 URL, 아래 스크린샷 3종이다. 인증 없는 API 요청은 과제 안내 기준 시간당 60회 제한이 있어 반복 새로고침을 피한다.
 
 ## 스크린샷
 
