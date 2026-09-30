@@ -11,28 +11,7 @@ VS Code에서 이 폴더를 열고 `index.html` 우클릭 → **Open with Live S
 - 저장소 URL: [ehdgus6697-debug/mission-b1-1-portfolio](https://github.com/ehdgus6697-debug/mission-b1-1-portfolio) · 공개
 - GitHub Pages URL: [자기소개 웹페이지](https://ehdgus6697-debug.github.io/mission-b1-1-portfolio/)
 
-## 공부할 파일과 순서
 
-1. `index.html`: header, nav, main, section, article, footer로 내용의 구조를 만든다. 프로필 이미지는 `images/profile.svg`를 사용한다.
-2. `css/style.css`: 기본 모바일 화면 → Flexbox와 Grid → 768px/1024px 화면 순서로 읽는다.
-3. `js/main.js`: STATE와 DOM 선택부터 시작해 테마, 메뉴, 스크롤, API, 폼 순서로 읽는다.
-
-HTML은 구조, CSS는 표현, JavaScript는 동작을 담당한다. 파일을 나누면 역할을 구분하고 수정할 위치를 찾기 쉽다. CSS는 link로, JS는 script의 defer로 연결한다. defer는 HTML 분석 후 DOM이 준비되면 JS를 실행하게 한다.
-
-## 평가문항 핵심 설명
-
-| 개념 | 이 코드에서의 사용과 이유 |
-| --- | --- |
-| 시맨틱 태그 | header는 머리말, nav는 이동 메뉴, main은 주요 내용, section은 주제 구역, article은 독립적인 프로젝트 카드, footer는 저작권·소셜 링크다. 의미에 맞게 선택했다. |
-| CSS 변수 | `:root`에 색상·글꼴·간격을 정의하고, `[data-theme="dark"]`에서 색을 덮어쓴다. 여러 요소의 값을 한 곳에서 바꿀 수 있다. |
-| Flexbox / Grid | nav는 한 줄의 정렬이므로 Flexbox, 프로젝트는 행과 열에 카드를 배치하므로 Grid를 쓴다. Grid는 auto-fit과 minmax로 열 수를 조절한다. |
-| 모바일 퍼스트 | 좁은 화면을 기본으로 만들고, 공간이 생기는 768px·1024px에서 메뉴와 본문 배치를 확장한다. |
-| DOM 선택 | `querySelector`는 요소 하나, `querySelectorAll`은 요소 목록을 찾는다. |
-| addEventListener | HTML의 onclick에 행동을 섞지 않고 JS에서 이벤트를 연결한다. 같은 이벤트에 여러 처리 함수를 연결할 수도 있다. |
-| STATE 객체 | 관련 상태를 한 곳에 모아 현재 값을 찾고 화면과 연결하기 쉽다. 개별 변수로도 구현할 수 있지만 이 과제에서는 흐름을 드러내기 위해 객체를 쓴다. |
-| 화살표 함수 | 이벤트·배열 처리 함수를 표현한다. |
-| 구조분해 | `const { status, data, error } = STATE.projects`처럼 필요한 속성을 꺼낸다. |
-| filter / map / forEach | filter로 포크를 제외 → map으로 카드 문자열 생성 → join으로 합친다. forEach는 각 링크·입력칸에 이벤트를 연결할 때 쓴다. |
 
 ### 이벤트 → 상태 변경 → 화면 업데이트: 세 가지
 
