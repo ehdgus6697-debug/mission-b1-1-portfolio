@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="하동현 DH 프로필 심볼">
+  <rect width="240" height="240" rx="120" fill="#f7c857"/>
+  <circle cx="120" cy="120" r="101" fill="none" stroke="#202720" stroke-width="1" stroke-dasharray="3 7" opacity=".3"/>
+  <path d="M50 96h27c21 0 34 13 34 34s-13 34-34 34H50V96zm19 17v34h8c10 0 15-6 15-17s-5-17-15-17h-8zm56-17h19v25h25V96h19v68h-19v-26h-25v26h-19V96z" fill="#202720"/>
+  <path d="M120 40v13m-6-6h12m68 132v16m-8-8h16" stroke="#202720" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="48" cy="181" r="5" fill="#d45b40"/>
+</svg>
